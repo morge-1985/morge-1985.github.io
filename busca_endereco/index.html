@@ -15,11 +15,17 @@
     <main class="container">
         <h1>consulta de endereços </h1>
         <label for="cep">Digite Cep:</label>
-        <input type="text" id="cep">
+        <input type="text" id="cep" maxlength="8">
         <button id="consultar">Consultar</button>
-        <div id="resultados"></div>
+        <div id="resultados">
+
+        </div>
 
     </main>
+    <button id="modo-noturno"class="lampada">
+        <i class="fas fa-lightbulb"></i>
+
+    </button>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/js-cookie/dist/js.cookie.js"></script>
     <script src="script.js"></script>
